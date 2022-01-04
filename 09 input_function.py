@@ -1,0 +1,5 @@
+a=input("Enter your phone no.:")
+print(type(a))
+a=int(a)
+print(a)
+print(type(a))
