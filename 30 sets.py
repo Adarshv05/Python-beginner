@@ -1,0 +1,10 @@
+set={1,2,3,4,12,45}
+set.add(23)
+set.add("2")
+print(set)
+set.remove(45)
+print(set.pop())
+print(set)
+print(len(set))
+print(set.union({3,16}))
+print(set.intersection({3,16}))
