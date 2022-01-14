@@ -1,0 +1,6 @@
+this is a ***** file *****
+hey a ***** file has .txt format ***** 
+hey a ***** file can be read through notepad *****
+because tetx file is ***** file *****
+***** so this is also a ***** file 
+hey a ***** file *****
