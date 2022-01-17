@@ -7,8 +7,16 @@ class Student:  #class
     def objprint(self):
         print("The name is",self.name)
 
+    @staticmethod 
+    def gm():
+        print("Cool")
+
 john=Student() #Object
 print(john.section)
 print(john.name)
 
-john.objprint()
+john.objprint() #calling self
+Student.objprint(john) 
+
+john.gm()
+Student.gm()
