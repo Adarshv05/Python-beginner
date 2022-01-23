@@ -1,0 +1,18 @@
+Create Virtual Enviornment
+python -m venv envname 
+        or
+pip install virtualenv
+virtualenv envname
+
+Activate VM
+.\envname\Scripts\activate.ps1
+
+Closing VM
+deactivate
+
+pip install pandas
+pip uninstall pandas
+
+pip freeze #returns all the modules installed with versions
+pip freeze > requirements.txt #stores on a file
+pip install -r requirements.txt 
